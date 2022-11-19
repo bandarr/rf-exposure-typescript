@@ -82,7 +82,6 @@ function calc_feedline_loss_for_matched_load_at_frequency(feedline_length: numbe
     return (feedline_length/100) * feedline_loss_per_100ft_at_frequency;
 }
 
-
 function calc_feedline_loss_for_matched_load_at_frequency_percentage(feedline_loss_for_matched_load: number) {
     return 10**(-feedline_loss_for_matched_load/10);
 }
